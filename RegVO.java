@@ -1,0 +1,33 @@
+package vo;
+
+public class RegVO {
+	private int id;
+	private String firstname;
+	private String lastname;
+	LoginVO lvo;
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getFirstname() {
+		return firstname;
+	}
+	public void setFirstname(String firstname) {
+		this.firstname = firstname;
+	}
+	public String getLastname() {
+		return lastname;
+	}
+	public void setLastname(String lastname) {
+		this.lastname = lastname;
+	}
+	public LoginVO getLvo() {
+		return lvo;
+	}
+	public void setLvo(LoginVO lvo) {
+		this.lvo = lvo;
+	}
+
+}
